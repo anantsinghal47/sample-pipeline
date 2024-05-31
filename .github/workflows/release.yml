@@ -36,6 +36,9 @@ jobs:
     # - name: Regenerate pdm.lock
     #   run: pdm lock
 
+    - name: Pdm initialization
+      run: pdm init
+
     - name: Install dependencies
       run: pdm install
 
